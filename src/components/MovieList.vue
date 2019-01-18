@@ -91,6 +91,12 @@ export default {
 <style scoped lang="scss">
 .serach-container {
   text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: #f4f7f6;
+  padding-bottom: 25px;
+
   h3 {
     margin: 0;
     margin-bottom: 18px;
@@ -195,9 +201,15 @@ export default {
     width: 80%;
   }
 
+  .serach-container {
+    padding: 10px;
+    input {
+      width: 180px;
+    }
+  }
+
   button {
     margin: 10px 0;
-    border-radius: 5px;
   }
 }
 </style>
