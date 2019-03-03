@@ -81,7 +81,6 @@ export default {
       return this.$store.getters.getcurrentMoviePage;
     },
     isActive() {
-      console.log("im hrer");
       return this.currentMoviePage.length < 10;
     }
   }
